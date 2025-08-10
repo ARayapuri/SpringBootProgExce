@@ -4,7 +4,7 @@ on:
   inputs:
    TARGET_ENVIRONMENT:
     type: environment
-    default: dev
+    default: prod
 jobs: 
   CI_Non-containerization_build:
     runs-on: ubuntu-latest
